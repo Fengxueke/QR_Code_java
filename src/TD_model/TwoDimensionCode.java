@@ -124,6 +124,7 @@ public class TwoDimensionCode {
   public static void main (String[] args){
 	  String imgPath = "Michael_QRCode.png";
 	  String encoderContent = "Hello QRCode!!";
+	  //字符串不能过长-->此处还没去解决
 	  //11223344556677889911223344556677889911223344556677889
 	  TwoDimensionCode handler = new TwoDimensionCode();
 	  handler.encoderQRCode(encoderContent, imgPath,"png");
