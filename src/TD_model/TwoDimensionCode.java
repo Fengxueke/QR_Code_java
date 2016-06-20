@@ -123,7 +123,7 @@ public class TwoDimensionCode {
   
   public static void main (String[] args){
 	  String imgPath = "Michael_QRCode.png";
-	  String encoderContent = "Who am i?";
+	  String encoderContent = "Hello QRCode!!";
 	  //11223344556677889911223344556677889911223344556677889
 	  TwoDimensionCode handler = new TwoDimensionCode();
 	  handler.encoderQRCode(encoderContent, imgPath,"png");
